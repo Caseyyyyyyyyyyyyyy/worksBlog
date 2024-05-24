@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   
   
-  <title>工程師體驗營-WEEK2-Flexbox | Casey的部落格</title>
+  <title>工程師體驗營-WEEK2-Flexbox | Casey&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="🤷什麼是Flexbox(Flexible Box)？1. 實務上常用的排版技巧 其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝) 2. 使用軸線對齊 主軸、交錯軸  3. 為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置 在Flexbox中，區塊元素的++預設寬度++取決於該元素內容，而非父元素的寬度  ✍️語法">
+  <meta name="description" content="🤷什麼是Flexbox(Flexible Box)？ 實務上常用的排版技巧其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝) 使用軸線對齊#主軸 #交錯軸     為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置在Flexbox中，區塊元素的預設寬度取決於該元素內容，而非父元素的寬度   ✍️語法淺談- displ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="工程師體驗營-WEEK2-Flexbox">
 <meta property="og:url" content="https://caseyyyyyyyyyyyyyy.github.io/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK2-Flexbox/index.html">
-<meta property="og:site_name" content="Casey的部落格">
-<meta property="og:description" content="🤷什麼是Flexbox(Flexible Box)？1. 實務上常用的排版技巧 其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝) 2. 使用軸線對齊 主軸、交錯軸  3. 為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置 在Flexbox中，區塊元素的++預設寬度++取決於該元素內容，而非父元素的寬度  ✍️語法">
+<meta property="og:site_name" content="Casey&#39;s Blog">
+<meta property="og:description" content="🤷什麼是Flexbox(Flexible Box)？ 實務上常用的排版技巧其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝) 使用軸線對齊#主軸 #交錯軸     為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置在Flexbox中，區塊元素的預設寬度取決於該元素內容，而非父元素的寬度   ✍️語法淺談- displ">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="c:\Users\Casey\Desktop\direction.png">
+<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/direction.png?alt=media&token=476ad6ea-fdf5-4c37-b197-b75877cd102a">
 <meta property="article:published_time" content="2024-05-22T07:17:53.000Z">
-<meta property="article:modified_time" content="2024-05-22T15:26:32.079Z">
+<meta property="article:modified_time" content="2024-05-24T07:08:21.233Z">
 <meta property="article:author" content="Casey">
 <meta property="article:tag" content="Notes">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:\Users\Casey\Desktop\direction.png">
+<meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/direction.png?alt=media&token=476ad6ea-fdf5-4c37-b197-b75877cd102a">
   
-    <link rel="alternate" href="/worksBlog/atom.xml" title="Casey的部落格" type="application/atom+xml">
+    <link rel="alternate" href="/worksBlog/atom.xml" title="Casey's Blog" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/worksBlog/favicon.png">
@@ -48,11 +48,11 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/worksBlog/" id="logo">Casey的部落格</a>
+        <a href="/worksBlog/" id="logo">Casey&#39;s Blog</a>
       </h1>
       
         <h2 id="subtitle-wrap">
-          <a href="/worksBlog/" id="subtitle">一同走進Casey的蜉蝣一生</a>
+          <a href="/worksBlog/" id="subtitle">閱覽Casey的蜉蝣一生</a>
         </h2>
       
     </div>
@@ -85,7 +85,7 @@
         <section id="main"><article id="post-工程師體驗營-WEEK2-Flexbox" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK2-Flexbox/" class="article-date">
-  <time class="dt-published" datetime="2024-05-22T07:17:53.000Z" itemprop="datePublished">2024-05-22</time>
+  <time class="dt-published" datetime="2024-05-22T07:17:53.000Z" itemprop="datePublished">05-22-2024</time>
 </a>
     
   </div>
@@ -104,32 +104,30 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="🤷什麼是Flexbox-Flexible-Box-？"><a href="#🤷什麼是Flexbox-Flexible-Box-？" class="headerlink" title="🤷什麼是Flexbox(Flexible Box)？"></a>🤷什麼是<strong>Flexbox</strong>(Flexible Box)？</h2><h3 id="1-實務上常用的排版技巧"><a href="#1-實務上常用的排版技巧" class="headerlink" title="1. 實務上常用的排版技巧"></a>1. 實務上常用的排版技巧</h3><blockquote>
-<h4 id="其他還有-grid、float、table、inline-block-等-學海無涯真令人高興啊-‾◡◝"><a href="#其他還有-grid、float、table、inline-block-等-學海無涯真令人高興啊-‾◡◝" class="headerlink" title="其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝)"></a>其他還有 grid、float、table、inline-block 等 <del>(學海無涯真令人高興啊(‾◡◝)</del></h4></blockquote>
-<h3 id="2-使用軸線對齊"><a href="#2-使用軸線對齊" class="headerlink" title="2. 使用軸線對齊"></a>2. 使用軸線對齊</h3><blockquote>
-<h4 id="主軸、交錯軸"><a href="#主軸、交錯軸" class="headerlink" title="主軸、交錯軸"></a>主軸、交錯軸</h4><p><img src="C:\Users\Casey\Desktop\direction.png" alt="direction"></p>
-</blockquote>
-<h3 id="3-為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置"><a href="#3-為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置" class="headerlink" title="3. 為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置"></a>3. 為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置</h3><blockquote>
-<h4 id="在Flexbox中，區塊元素的-預設寬度-取決於該元素內容，而非父元素的寬度"><a href="#在Flexbox中，區塊元素的-預設寬度-取決於該元素內容，而非父元素的寬度" class="headerlink" title="在Flexbox中，區塊元素的++預設寬度++取決於該元素內容，而非父元素的寬度"></a>在Flexbox中，區塊元素的++預設寬度++取決於<strong>該元素內容</strong>，而非<strong>父元素的寬度</strong></h4></blockquote>
+        <h2 id="🤷什麼是Flexbox-Flexible-Box-？"><a href="#🤷什麼是Flexbox-Flexible-Box-？" class="headerlink" title="🤷什麼是Flexbox(Flexible Box)？"></a>🤷什麼是Flexbox(Flexible Box)？</h2><ul>
+<li><h3 id="實務上常用的排版技巧"><a href="#實務上常用的排版技巧" class="headerlink" title="實務上常用的排版技巧"></a>實務上常用的排版技巧</h3><h4 id="其他還有-grid、float、table、inline-block-等-學海無涯真令人高興啊-‾◡◝"><a href="#其他還有-grid、float、table、inline-block-等-學海無涯真令人高興啊-‾◡◝" class="headerlink" title="其他還有 grid、float、table、inline-block 等 (學海無涯真令人高興啊(‾◡◝)"></a>其他還有 grid、float、table、inline-block 等 <del>(學海無涯真令人高興啊(‾◡◝)</del></h4></li>
+<li><h3 id="使用軸線對齊"><a href="#使用軸線對齊" class="headerlink" title="使用軸線對齊"></a>使用軸線對齊</h3><h4 id="主軸-交錯軸"><a href="#主軸-交錯軸" class="headerlink" title="#主軸 #交錯軸"></a>#主軸 #交錯軸</h4></li>
+</ul>
+<img src="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/direction.png?alt=media&token=476ad6ea-fdf5-4c37-b197-b75877cd102a" width="300px" style="margin-left: 0">
+
+<ul>
+<li><h3 id="為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置"><a href="#為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置" class="headerlink" title="為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置"></a>為適應父元素的大小和其他元素的變化，Flexbox元素會自動調整大小和位置</h3><h4 id="在Flexbox中，區塊元素的預設寬度取決於該元素內容，而非父元素的寬度"><a href="#在Flexbox中，區塊元素的預設寬度取決於該元素內容，而非父元素的寬度" class="headerlink" title="在Flexbox中，區塊元素的預設寬度取決於該元素內容，而非父元素的寬度"></a>在Flexbox中，區塊元素的<span style="text-decoration: underline">預設寬度</span>取決於<span style="text-decoration: underline">該元素內容</span>，而非<span style="text-decoration: underline">父元素的寬度</span></h4></li>
+</ul>
 <hr>
-<h2 id="✍️語法淺談-display-flex"><a href="#✍️語法淺談-display-flex" class="headerlink" title="✍️語法淺談- display: flex;"></a>✍️語法淺談- <em><strong>display: flex;</strong></em></h2><blockquote>
-<h4 id="設置此屬性在父元素-flex-container-，將使得其-第一層-子元素-flex-item-並排呈現"><a href="#設置此屬性在父元素-flex-container-，將使得其-第一層-子元素-flex-item-並排呈現" class="headerlink" title="設置此屬性在父元素(flex container)，將使得其&#x3D;&#x3D;第一層&#x3D;&#x3D;子元素(flex item) 並排呈現"></a>設置此屬性在<strong>父元素</strong>(flex container)，將使得其&#x3D;&#x3D;第一層&#x3D;&#x3D;子元素(flex item) 並排呈現</h4></blockquote>
-<h3 id="當設置此屬性後，該父元素的CSS屬性會具有以下預設值"><a href="#當設置此屬性後，該父元素的CSS屬性會具有以下預設值" class="headerlink" title="當設置此屬性後，該父元素的CSS屬性會具有以下預設值"></a>當設置此屬性後，該父元素的CSS屬性會具有以下<strong>預設值</strong></h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="comment">/* 主軸方向/資訊流-預設為由左至右 */</span></span><br><span class="line">  <span class="attribute">flex-direction</span>: row;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 當items一行排不完是否要換行-預設為擠在同一行 */</span>   </span><br><span class="line">  <span class="attribute">flex-wrap</span>: nowrap;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 主軸對齊方式-預設為從主軸起點排起 */</span>  </span><br><span class="line">  <span class="attribute">justify-content</span>: flex-start;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 交錯軸對齊方式-預設為填滿父容器在交錯軸上的空間 */</span>  </span><br><span class="line">  <span class="attribute">align-items</span>: stretch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="✍️語法淺談-display-flex"><a href="#✍️語法淺談-display-flex" class="headerlink" title="✍️語法淺談- display: flex;"></a>✍️語法淺談- display: flex;</h2><h3 id="設置此屬性在父元素-flex-container-，將使得其第一層子元素-flex-item-並排呈現"><a href="#設置此屬性在父元素-flex-container-，將使得其第一層子元素-flex-item-並排呈現" class="headerlink" title="#設置此屬性在父元素(flex container)，將使得其第一層子元素(flex item) 並排呈現"></a>#設置此屬性在<span style="text-decoration: underline">父元素</span>(flex container)，將使得其<span style="background-color: yellow">第一層</span>子元素(flex item) 並排呈現</h3><h4 id="當設置此屬性後，該父元素的CSS屬性會具有以下預設值"><a href="#當設置此屬性後，該父元素的CSS屬性會具有以下預設值" class="headerlink" title="當設置此屬性後，該父元素的CSS屬性會具有以下預設值"></a>當設置此屬性後，該父元素的CSS屬性會具有以下<span style="text-decoration: underline">預設值</span></h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="comment">/* 主軸方向/資訊流-預設為由左至右 */</span></span><br><span class="line">  <span class="attribute">flex-direction</span>: row;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 當items一行排不完是否要換行-預設為擠在同一行 */</span>   </span><br><span class="line">  <span class="attribute">flex-wrap</span>: nowrap;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 主軸對齊方式-預設為從主軸起點排起 */</span>  </span><br><span class="line">  <span class="attribute">justify-content</span>: flex-start;</span><br><span class="line">    </span><br><span class="line">  <span class="comment">/* 交錯軸對齊方式-預設為填滿父容器在交錯軸上的空間 */</span>  </span><br><span class="line">  <span class="attribute">align-items</span>: stretch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
 <h2 id="⏹️小試身手-三種讓元素「水平垂直置中」的方法"><a href="#⏹️小試身手-三種讓元素「水平垂直置中」的方法" class="headerlink" title="⏹️小試身手-三種讓元素「水平垂直置中」的方法"></a>⏹️小試身手-三種讓元素「水平垂直置中」的方法</h2><h3 id="1-Flexbox"><a href="#1-Flexbox" class="headerlink" title="1. Flexbox"></a>1. Flexbox</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 方法一 */</span></span><br><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 方法二 */</span></span><br><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: auto;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="2-Grid"><a href="#2-Grid" class="headerlink" title="2. Grid"></a>2. <a id="grid"></a>Grid</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: grid;</span><br><span class="line">  place-<span class="attribute">content</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="3-絕對定位"><a href="#3-絕對定位" class="headerlink" title="3. 絕對定位"></a>3. 絕對定位</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.item</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>position: absolute;</strong><br>&#x3D;&gt; 使子元素相對父元素進行定位</p>
-<p><strong>transform: translate(-50%, -50%);</strong><br>&#x3D;&gt; 用於對元素進行平移<br>&#x3D;&gt; 水平方向<strong>左移</strong>自身寬度的50%，垂直方向<strong>上移</strong>自身高度的50%</p>
-<hr>
-<h2 id="💬最後想說…"><a href="#💬最後想說…" class="headerlink" title="💬最後想說…"></a>💬最後想說…</h2><p>~ 在<a href="#grid">Grid處</a>不知為何<strong>place</strong>的顏色不同於其他屬性顏色，若有好心人知道再煩請不吝告知(. ❛ ᴗ ❛.) ~</p>
+<h4 id="position-absolute"><a href="#position-absolute" class="headerlink" title="position: absolute;"></a>position: absolute;</h4><h5 id="使子元素相對父元素進行定位"><a href="#使子元素相對父元素進行定位" class="headerlink" title="&#x3D;&gt; 使子元素相對父元素進行定位"></a>&#x3D;&gt; 使子元素相對父元素進行定位</h5><h4 id="transform-translate-50-50"><a href="#transform-translate-50-50" class="headerlink" title="transform: translate(-50%, -50%);"></a>transform: translate(-50%, -50%);</h4><h5 id="用於對元素進行平移"><a href="#用於對元素進行平移" class="headerlink" title="&#x3D;&gt; 用於對元素進行平移"></a>&#x3D;&gt; 用於對元素進行平移</h5><h5 id="水平方向左移自身寬度的50-，垂直方向上移自身高度的50"><a href="#水平方向左移自身寬度的50-，垂直方向上移自身高度的50" class="headerlink" title="&#x3D;&gt; 水平方向左移自身寬度的50%，垂直方向上移自身高度的50%"></a>&#x3D;&gt; 水平方向<span style="text-decoration: underline">左移</span>自身寬度的50%，垂直方向<span style="text-decoration: underline">上移</span>自身高度的50%</h5><hr>
+<h2 id="💬最後想說…"><a href="#💬最後想說…" class="headerlink" title="💬最後想說…"></a>💬最後想說…</h2><p>~ 在<a href="#grid">Grid處</a>不知為何<span style="text-decoration: underline">place</span>的顏色不同於其他屬性顏色，若有好心人知道再煩請不吝告知(. ❛ ᴗ ❛.) ~</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://caseyyyyyyyyyyyyyy.github.io/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK2-Flexbox/" data-id="clwk1om1q0000x8v22vm164w9" data-title="工程師體驗營-WEEK2-Flexbox" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://caseyyyyyyyyyyyyyy.github.io/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK2-Flexbox/" data-id="clwkdoim50001zcv285o6hkfx" data-title="工程師體驗營-WEEK2-Flexbox" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       

@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/aurora.jpg?alt=media&token=e67d8c74-283a-4ddb-9e0e-62ef5847588d") center #000;
   background-size: cover;
   z-index: -1;
 }
