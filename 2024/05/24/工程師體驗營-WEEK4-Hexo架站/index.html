@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>工程師體驗營-WEEK4-Hexo+GitHub Pages | Casey&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="🤷什麼是Hexo？👉 靜態部落格框架 👈 簡單快速且功能強大Node.js 帶來超級快的檔案產生速度，上百個檔案只需幾秒就能建立完成 Markdown 支援支援所有 GitHub Flavored Markdown 的功能，甚至能在 Hexo 使用大部份的 Octopress 外掛 一鍵部署只需要一個指令就能把網站部署到 GitHub Pages、Heroku 或其他網站 豐富的外掛有強大的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="工程師體驗營-WEEK4-Hexo+GitHub Pages">
+<meta property="og:url" content="https://caseyyyyyyyyyyyyyy.github.io/worksBlog/2024/05/24/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK4-Hexo%E6%9E%B6%E7%AB%99/index.html">
+<meta property="og:site_name" content="Casey&#39;s Blog">
+<meta property="og:description" content="🤷什麼是Hexo？👉 靜態部落格框架 👈 簡單快速且功能強大Node.js 帶來超級快的檔案產生速度，上百個檔案只需幾秒就能建立完成 Markdown 支援支援所有 GitHub Flavored Markdown 的功能，甚至能在 Hexo 使用大部份的 Octopress 外掛 一鍵部署只需要一個指令就能把網站部署到 GitHub Pages、Heroku 或其他網站 豐富的外掛有強大的">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/page.png?alt=media&token=a91f9848-afb9-497e-b5e7-fe58a90ebf84">
+<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/firebase.png?alt=media&token=cef42d67-485e-455a-9fb8-c901efdd9312">
+<meta property="article:published_time" content="2024-05-24T10:55:18.000Z">
+<meta property="article:modified_time" content="2024-05-24T15:00:16.007Z">
+<meta property="article:author" content="Casey">
+<meta property="article:tag" content="學習筆記">
+<meta property="article:tag" content="Hexo架站">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/page.png?alt=media&token=a91f9848-afb9-497e-b5e7-fe58a90ebf84">
+  
+    <link rel="alternate" href="/worksBlog/atom.xml" title="Casey's Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/worksBlog/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/worksBlog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/worksBlog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/worksBlog/" id="logo">Casey&#39;s Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/worksBlog/" id="subtitle">-Casey的蜉蝣一生-</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/worksBlog/">Home</a>
+        
+          <a class="main-nav-link" href="/worksBlog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/worksBlog/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/worksBlog/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜尋"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜尋"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Caseyyyyyyyyyyyyyy.github.io/worksBlog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-工程師體驗營-WEEK4-Hexo架站" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/worksBlog/2024/05/24/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK4-Hexo%E6%9E%B6%E7%AB%99/" class="article-date">
+  <time class="dt-published" datetime="2024-05-24T10:55:18.000Z" itemprop="datePublished">05-24-2024</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      工程師體驗營-WEEK4-Hexo+GitHub Pages
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="🤷什麼是Hexo？"><a href="#🤷什麼是Hexo？" class="headerlink" title="🤷什麼是Hexo？"></a>🤷什麼是Hexo？<hr></h2><h3 id="👉-靜態部落格框架-👈"><a href="#👉-靜態部落格框架-👈" class="headerlink" title="👉 靜態部落格框架 👈"></a>👉 靜態部落格框架 👈</h3><ul>
+<li><h4 id="簡單快速且功能強大"><a href="#簡單快速且功能強大" class="headerlink" title="簡單快速且功能強大"></a>簡單快速且功能強大</h4>Node.js 帶來超級快的檔案產生速度，上百個檔案只需幾秒就能建立完成</li>
+<li><h4 id="Markdown-支援"><a href="#Markdown-支援" class="headerlink" title="Markdown 支援"></a>Markdown 支援</h4>支援所有 GitHub Flavored Markdown 的功能，甚至能在 Hexo 使用大部份的 Octopress 外掛</li>
+<li><h4 id="一鍵部署"><a href="#一鍵部署" class="headerlink" title="一鍵部署"></a>一鍵部署</h4>只需要一個指令就能把網站部署到 GitHub Pages、Heroku 或其他網站</li>
+<li><h4 id="豐富的外掛"><a href="#豐富的外掛" class="headerlink" title="豐富的外掛"></a>豐富的外掛</h4>有強大的外掛系統，可安裝外掛讓 Hexo 支援 Jade、CoffeeScript<br></li>
+</ul>
+<h2 id="👣Hexo架站步驟"><a href="#👣Hexo架站步驟" class="headerlink" title="👣Hexo架站步驟"></a>👣Hexo架站步驟<hr></h2><ul>
+<li><h3 id="環境安裝"><a href="#環境安裝" class="headerlink" title="環境安裝"></a>環境安裝</h3><h4 id="環境安裝教學"><a href="#環境安裝教學" class="headerlink" title="| 環境安裝教學"></a>| <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/">環境安裝教學</a></h4><ul>
+<li><h4 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a><a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js</a></h4></li>
+<li><h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a><a target="_blank" rel="noopener" href="https://git-scm.com/">Git</a></h4></li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git -v</span><br><span class="line"></span><br><span class="line">git config --global user.name &quot;你的名字&quot;</span><br><span class="line">git config --global user.email &quot;你的電子郵件地址&quot;</span><br><span class="line"></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">hexo -v </span><br></pre></td></tr></table></figure></li>
+<li><h3 id="建立專案資料夾-初始化Git存儲庫"><a href="#建立專案資料夾-初始化Git存儲庫" class="headerlink" title="建立專案資料夾 &amp; 初始化Git存儲庫"></a>建立專案資料夾 &amp; 初始化Git存儲庫</h3><h4 id="於桌面新增-project-資料夾"><a href="#於桌面新增-project-資料夾" class="headerlink" title="| 於桌面新增 project 資料夾"></a>| 於桌面新增 project 資料夾</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd .\Desktop\project</span><br><span class="line"></span><br><span class="line">git init</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="建立部落格"><a href="#建立部落格" class="headerlink" title="建立部落格"></a>建立部落格</h3><h4 id="網站名稱為-worksBlog"><a href="#網站名稱為-worksBlog" class="headerlink" title="| 網站名稱為 worksBlog"></a>| 網站名稱為 worksBlog</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init 網站名稱</span><br><span class="line"></span><br><span class="line">cd .\worksBlog</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="開啟伺服器-本地預覽"><a href="#開啟伺服器-本地預覽" class="headerlink" title="開啟伺服器(本地預覽)"></a>開啟伺服器(本地預覽)</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="新增一篇部落格文章-注意標題不能有空白字元"><a href="#新增一篇部落格文章-注意標題不能有空白字元" class="headerlink" title="新增一篇部落格文章 (注意標題不能有空白字元)"></a>新增一篇部落格文章 <em>(注意標題不能有空白字元)</em></h3><h4 id="Markdown-語法"><a href="#Markdown-語法" class="headerlink" title="| Markdown 語法"></a>| <a target="_blank" rel="noopener" href="https://markdown.tw/">Markdown 語法</a></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 文章標題</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="輸出實際網頁"><a href="#輸出實際網頁" class="headerlink" title="輸出實際網頁"></a>輸出實際網頁</h3><ul>
+<li><h4 id="進行編譯-md-檔瀏覽器看不懂"><a href="#進行編譯-md-檔瀏覽器看不懂" class="headerlink" title="進行編譯(md 檔瀏覽器看不懂)"></a>進行編譯(md 檔瀏覽器看不懂)</h4></li>
+<li><h4 id="生成-public-資料夾-存放-html-css-img-等靜態檔案"><a href="#生成-public-資料夾-存放-html-css-img-等靜態檔案" class="headerlink" title="生成 public 資料夾(存放 html,css,img 等靜態檔案)"></a>生成 public 資料夾(存放 html,css,img 等靜態檔案)</h4></li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="連結-GitHub-Pages"><a href="#連結-GitHub-Pages" class="headerlink" title="連結 GitHub Pages"></a>連結 GitHub Pages</h3><h4 id="在-GitHub-Pages-上部署-Hexo"><a href="#在-GitHub-Pages-上部署-Hexo" class="headerlink" title="| 在 GitHub Pages 上部署 Hexo"></a>| <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/github-pages#%E4%B8%80%E9%8D%B5%E9%83%A8%E5%B1%AC">在 GitHub Pages 上部署 Hexo</a></h4><ul>
+<li><h4 id="VSCode-綁定-GitHub-帳號"><a href="#VSCode-綁定-GitHub-帳號" class="headerlink" title="VSCode 綁定 GitHub 帳號"></a>VSCode 綁定 GitHub 帳號</h4></li>
+<li><h4 id="帳戶-啟用雲端變更-GitHub"><a href="#帳戶-啟用雲端變更-GitHub" class="headerlink" title="帳戶 &gt; 啟用雲端變更 &gt; GitHub"></a>帳戶 &gt; 啟用雲端變更 &gt; GitHub</h4></li>
+<li><h4 id="在-GitHub-開啟一個網站空間-repo"><a href="#在-GitHub-開啟一個網站空間-repo" class="headerlink" title="在 GitHub 開啟一個網站空間(repo)"></a>在 GitHub 開啟一個網站空間(repo)</h4></li>
+<li><h4 id="調整-config-yml-的-url"><a href="#調整-config-yml-的-url" class="headerlink" title="調整 _config.yml 的 url"></a>調整 _config.yml 的 url</h4></li>
+</ul>
+</li>
+<li><h3 id="更新進度"><a href="#更新進度" class="headerlink" title="更新進度"></a>更新進度</h3><h4 id="先清除快取再部署"><a href="#先清除快取再部署" class="headerlink" title="| 先清除快取再部署"></a>| 先清除快取再部署</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<br></li>
+</ul>
+<h2 id="💡設計部落格の二三事"><a href="#💡設計部落格の二三事" class="headerlink" title="💡設計部落格の二三事"></a>💡設計部落格の二三事<hr></h2><ul>
+<li><h3 id="客製化部落格"><a href="#客製化部落格" class="headerlink" title="客製化部落格"></a>客製化部落格</h3><h4 id="⇨-config-yml：修改網站配置-全域設定"><a href="#⇨-config-yml：修改網站配置-全域設定" class="headerlink" title="⇨ _config.yml：修改網站配置(全域設定)"></a>⇨ <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/configuration">_config.yml</a>：修改網站配置(全域設定)</h4></li>
+<li><h3 id="新增導覽列"><a href="#新增導覽列" class="headerlink" title="新增導覽列"></a>新增導覽列</h3><ul>
+<li><h4 id="新增-about-頁面"><a href="#新增-about-頁面" class="headerlink" title="新增 about 頁面"></a>新增 about 頁面</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="安裝-theme-內建樣版-landscape"><a href="#安裝-theme-內建樣版-landscape" class="headerlink" title="安裝 theme 內建樣版 - landscape"></a>安裝 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-theme-landscape">theme 內建樣版</a> - landscape</h4>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --depth 1 https://github.com/hexojs/hexo-theme-landscape themes/landscape</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="在-themes-landscape-config-yml-新增導覽列及路徑"><a href="#在-themes-landscape-config-yml-新增導覽列及路徑" class="headerlink" title="在 themes&gt;landscape&gt;_config.yml 新增導覽列及路徑"></a>在 themes&gt;landscape&gt;_config.yml 新增導覽列及路徑</h4><img src="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/page.png?alt=media&token=a91f9848-afb9-497e-b5e7-fe58a90ebf84" style="margin-left: 0"></li>
+</ul>
+</li>
+<li><h3 id="加入-tags"><a href="#加入-tags" class="headerlink" title="加入 tags"></a>加入 tags</h3><h4 id="在該文章-md-檔的表頭"><a href="#在該文章-md-檔的表頭" class="headerlink" title="| 在該文章 .md 檔的表頭"></a>| 在該文章 .md 檔的表頭</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">- tag1</span><br><span class="line">- tag2</span><br></pre></td></tr></table></figure>
+</li>
+<li><h3 id="統一管理圖片"><a href="#統一管理圖片" class="headerlink" title="統一管理圖片"></a>統一管理圖片</h3><h4 id="圖床服務：Firebase"><a href="#圖床服務：Firebase" class="headerlink" title="圖床服務：Firebase"></a>圖床服務：<a target="_blank" rel="noopener" href="https://firebase.google.com/">Firebase</a></h4><img src="https://firebasestorage.googleapis.com/v0/b/worksblog-3d1f8.appspot.com/o/firebase.png?alt=media&token=cef42d67-485e-455a-9fb8-c901efdd9312" style="margin-left: 0"></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://caseyyyyyyyyyyyyyy.github.io/worksBlog/2024/05/24/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK4-Hexo%E6%9E%B6%E7%AB%99/" data-id="clwkt7mdw0002v8v2h7we1vlz" data-title="工程師體驗營-WEEK4-Hexo+GitHub Pages" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/worksBlog/tags/Hexo%E6%9E%B6%E7%AB%99/" rel="tag">Hexo架站</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/worksBlog/tags/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/" rel="tag">學習筆記</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK3-RWD/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">工程師體驗營-WEEK3-RWD</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">標籤</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/worksBlog/tags/Hexo%E6%9E%B6%E7%AB%99/" rel="tag">Hexo架站</a></li><li class="tag-list-item"><a class="tag-list-link" href="/worksBlog/tags/%E5%88%87%E7%89%88/" rel="tag">切版</a></li><li class="tag-list-item"><a class="tag-list-link" href="/worksBlog/tags/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/" rel="tag">學習筆記</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">標籤雲</h3>
+    <div class="widget tagcloud">
+      <a href="/worksBlog/tags/Hexo%E6%9E%B6%E7%AB%99/" style="font-size: 10px;">Hexo架站</a> <a href="/worksBlog/tags/%E5%88%87%E7%89%88/" style="font-size: 15px;">切版</a> <a href="/worksBlog/tags/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/" style="font-size: 20px;">學習筆記</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">彙整</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/worksBlog/archives/2024/05/">五月 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/worksBlog/2024/05/24/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK4-Hexo%E6%9E%B6%E7%AB%99/">工程師體驗營-WEEK4-Hexo+GitHub Pages</a>
+          </li>
+        
+          <li>
+            <a href="/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK3-RWD/">工程師體驗營-WEEK3-RWD</a>
+          </li>
+        
+          <li>
+            <a href="/worksBlog/2024/05/22/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F-WEEK2-Flexbox/">工程師體驗營-WEEK2-Flexbox</a>
+          </li>
+        
+          <li>
+            <a href="/worksBlog/2024/05/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 Casey<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/worksBlog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/worksBlog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/worksBlog/about" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+
+<script src="/worksBlog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/worksBlog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/worksBlog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
